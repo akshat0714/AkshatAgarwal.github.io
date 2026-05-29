@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name — Online Portfolio</title>
+  <meta name="description" content="The online portfolio of Your Name — engineering and design projects, resume, and about.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAV (identical on every page) ============ -->
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="index.html">Your Name<span class="dot">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <ul class="nav__links">
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero wrap">
+    <p class="hero__tag fade-up d1"><span class="pulse"></span> Online Portfolio · PLTW</p>
+    <!-- ✏️ EDIT: your name -->
+    <h1 class="fade-up d2">Your<br>Name</h1>
+    <!-- ✏️ EDIT: a one-line description of who you are -->
+    <p class="lead hero__sub fade-up d3">Student engineer and designer. I build things, then carefully document how and why — this site collects my best work, my resume, and a bit about me.</p>
+    <div class="hero__cta fade-up d4">
+      <a class="btn" href="projects.html">View projects <span class="arrow">→</span></a>
+      <a class="btn btn--ghost" href="about.html">About me</a>
+    </div>
+    <div class="hero__meta fade-up d5">
+      <div><span>Focus</span><strong>Engineering &amp; Design</strong></div>
+      <div><span>Program</span><strong>PLTW</strong></div>
+      <div><span>Location</span><strong>Your City, ST</strong></div>
+      <div><span>Status</span><strong>Open to opportunities</strong></div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS MARQUEE ============ -->
+  <div class="strip" aria-hidden="true">
+    <div class="strip__track">
+      <span>CAD / Solid Modeling</span><span>Prototyping</span><span>Technical Writing</span>
+      <span>Problem Solving</span><span>Collaboration</span><span>Design Process</span>
+      <span>CAD / Solid Modeling</span><span>Prototyping</span><span>Technical Writing</span>
+      <span>Problem Solving</span><span>Collaboration</span><span>Design Process</span>
+    </div>
+  </div>
+
+  <!-- ============ FEATURED PROJECTS ============ -->
+  <section class="section wrap">
+    <p class="eyebrow reveal">01 — Selected work</p>
+    <h2 class="headline reveal" style="margin-bottom:2.6rem;">Two projects, documented end&#8209;to&#8209;end.</h2>
+
+    <div class="grid-2">
+      <!-- Project 1 -->
+      <a class="card reveal" href="project-1.html">
+        <div class="card__media"><img src="images/project-1.svg" alt="Project one cover"></div>
+        <div class="card__body">
+          <div class="card__kicker"><span>Project 01</span><span>2025</span></div>
+          <h3>Project One Title</h3>
+          <p>A one-sentence hook describing what this project is and the problem it solves.</p>
+          <span class="card__link">View project <span class="arrow">→</span></span>
+        </div>
+      </a>
+      <!-- Project 2 -->
+      <a class="card reveal" href="project-2.html">
+        <div class="card__media"><img src="images/project-2.svg" alt="Project two cover"></div>
+        <div class="card__body">
+          <div class="card__kicker"><span>Project 02</span><span>2025</span></div>
+          <h3>Project Two Title</h3>
+          <p>A one-sentence hook describing what this project is and the problem it solves.</p>
+          <span class="card__link">View project <span class="arrow">→</span></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ WHAT I DO ============ -->
+  <section class="section--tight wrap">
+    <div class="split">
+      <div class="reveal">
+        <p class="eyebrow">02 — Approach</p>
+        <h2 class="headline">I treat every build like a design problem.</h2>
+      </div>
+      <div class="reveal">
+        <p class="lead">From the first sketch to the final write-up, I follow a clear process: define the problem, explore options, prototype, test, and document the result.</p>
+        <ul class="facts" style="margin-top:1.4rem;">
+          <li><span>Design</span><strong>Concept sketches, CAD models, and iteration</strong></li>
+          <li><span>Build</span><strong>Prototyping, fabrication, and testing</strong></li>
+          <li><span>Document</span><strong>Clear technical writing and visuals</strong></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER (identical on every page) ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <p class="eyebrow">Let's connect</p>
+        <h3>Thanks for visiting my portfolio.</h3>
+        <a class="btn" href="mailto:you@example.com">Get in touch <span class="arrow">→</span></a>
+      </div>
+      <div class="links">
+        <!-- ✏️ EDIT these links -->
+        <a href="mailto:you@example.com">Email <span class="arrow">↗</span></a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub <span class="arrow">↗</span></a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a>
+        <a href="resume.html">Resume <span class="arrow">↗</span></a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="wrap">
+        <span>© <span data-year></span> Your Name</span>
+        <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

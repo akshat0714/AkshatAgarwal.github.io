@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume — Your Name</title>
+  <meta name="description" content="Resume of Your Name — education, experience, skills, and activities.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a class="brand" href="index.html">Your Name<span class="dot">.</span></a>
+      <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html" aria-current="page">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="section wrap">
+    <p class="eyebrow reveal">Resume</p>
+
+    <!-- Header: name + contact -->
+    <div class="resume-head reveal">
+      <div>
+        <h1>Your Name</h1>
+        <p class="muted" style="margin:.4rem 0 0; font-family:var(--font-mono); font-size:.8rem; letter-spacing:.1em; text-transform:uppercase;">Student · Engineering &amp; Design</p>
+      </div>
+      <div class="contact">
+        <!-- ✏️ EDIT your contact info -->
+        <a href="mailto:you@example.com">you@example.com</a><br>
+        Your City, ST<br>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a>
+      </div>
+    </div>
+
+    <!-- Optional: link to a downloadable PDF version.
+         Drop a file named resume.pdf in this folder, or delete this button. -->
+    <p style="margin-top:1.4rem;"><a class="btn btn--ghost" href="resume.pdf" target="_blank" rel="noopener">Download PDF <span class="arrow">↓</span></a></p>
+
+    <div class="resume-grid">
+
+      <!-- ===== SIDEBAR ===== -->
+      <aside class="reveal">
+        <div class="res-block">
+          <h2>Education</h2>
+          <div class="entry">
+            <div class="entry__row"><h3>Your High School</h3><span class="entry__date">20XX–20XX</span></div>
+            <p class="entry__org">PLTW Pathway</p>
+            <ul>
+              <li>GPA: X.X / 4.0</li>
+              <li>Relevant courses: Intro to Engineering Design, Principles of Engineering</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="res-block">
+          <h2>Skills</h2>
+          <ul class="chips">
+            <li>SolidWorks</li><li>CAD</li><li>3D Printing</li>
+            <li>Prototyping</li><li>Tech Writing</li><li>MS Office</li>
+            <li>Teamwork</li><li>Problem Solving</li>
+          </ul>
+        </div>
+
+        <div class="res-block">
+          <h2>Honors</h2>
+          <div class="entry">
+            <div class="entry__row"><h3>Award or Honor</h3><span class="entry__date">20XX</span></div>
+            <p class="entry__org" style="margin-bottom:0;">Where it's from</p>
+          </div>
+          <div class="entry">
+            <div class="entry__row"><h3>Award or Honor</h3><span class="entry__date">20XX</span></div>
+            <p class="entry__org" style="margin-bottom:0;">Where it's from</p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- ===== MAIN ===== -->
+      <div class="reveal">
+        <div class="res-block">
+          <h2>Experience</h2>
+          <div class="entry">
+            <div class="entry__row"><h3>Position / Role</h3><span class="entry__date">Mon 20XX – Present</span></div>
+            <p class="entry__org">Organization or Company · Your City, ST</p>
+            <ul>
+              <li>Describe what you did, starting with a strong action verb (built, designed, led, organized).</li>
+              <li>Include a result or number when you can (e.g. "improved X by Y%," "served Z customers").</li>
+              <li>Keep each bullet to one clear, proofread line.</li>
+            </ul>
+          </div>
+          <div class="entry">
+            <div class="entry__row"><h3>Position / Role</h3><span class="entry__date">Summer 20XX</span></div>
+            <p class="entry__org">Organization or Company · Your City, ST</p>
+            <ul>
+              <li>Action verb + what you did + the result.</li>
+              <li>Action verb + what you did + the result.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="res-block">
+          <h2>Projects &amp; Leadership</h2>
+          <div class="entry">
+            <div class="entry__row"><h3>Project or Club Name</h3><span class="entry__date">20XX</span></div>
+            <p class="entry__org">Role · PLTW / Club</p>
+            <ul>
+              <li>Briefly describe the project or your leadership role and impact.</li>
+              <li>Link to it in the <a href="projects.html">projects</a> section of this site.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="res-block">
+          <h2>Activities &amp; Volunteering</h2>
+          <div class="entry">
+            <div class="entry__row"><h3>Activity / Volunteer Work</h3><span class="entry__date">20XX–20XX</span></div>
+            <p class="entry__org">Organization</p>
+            <ul>
+              <li>What you contributed and how often.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <p class="eyebrow">Let's connect</p>
+        <h3>Thanks for visiting my portfolio.</h3>
+        <a class="btn" href="mailto:you@example.com">Get in touch <span class="arrow">→</span></a>
+      </div>
+      <div class="links">
+        <a href="mailto:you@example.com">Email <span class="arrow">↗</span></a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub <span class="arrow">↗</span></a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a>
+        <a href="projects.html">Projects <span class="arrow">↗</span></a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="wrap">
+        <span>© <span data-year></span> Your Name</span>
+        <span>Built with HTML &amp; CSS · Hosted on GitHub Pages</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
